@@ -206,7 +206,7 @@ public class Utils {
      * Returns whether the SDK is the Jellybean release or later.
      */
     public static boolean isJellybeanOrLater() {
-      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN;
+      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.KIT_KAT;
     }
 
     public static int getViewTypeFromIntentAndSharedPref(Activity activity) {
